@@ -1,0 +1,74 @@
+/* Color Scheme
+******/
+/* Fonts
+******/
+* {
+  color: #171738;
+  font-weight: normal; }
+
+body {
+  background: #D3CCE3;
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  font-family: "Merriweather", serif; }
+
+.body-content {
+  margin-top: 7em; }
+
+.centralised {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .centralised .fb-login-button {
+    transition: 0.5s ease; }
+  .centralised .fb-login-button:hover {
+    opacity: 0.85; }
+
+.header {
+  background: #1488CC;
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+  background: linear-gradient(to right, #2B32B2, #1488CC);
+  border-bottom: 5px solid #171738;
+  padding: 30px 0 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .header * {
+    color: #EEE5E9; }
+  .header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900; }
+  .header h6 {
+    text-align: right;
+    font-weight: 900; }
+
+#status {
+  border-bottom: solid 5px #2B32B2; }
+  #status h2 {
+    font-family: "Montserrat", sans-serif; }
+
+#dp {
+  float: right; }
+
+::selection {
+  background-color: #091540;
+  color: #EEE5E9; }
+
+@media only screen and (max-width: 500px) {
+  .header h1 {
+    text-align: center; }
+  .header h6 {
+    text-align: center; }
+
+  .body-content {
+    margin-top: 10em; }
+    .body-content h2 {
+      font-size: 1.5em; }
+
+  #dp {
+    height: 100px;
+    width: 100px; } }
+
+/*# sourceMappingURL=style.css.map */
